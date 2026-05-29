@@ -1,0 +1,269 @@
+{
+  "sources": [
+    {
+      "id": "ard-sportschau",
+      "name": "ARD Sportschau",
+      "country": "DE",
+      "language": "de",
+      "type": "scrape",
+      "scrape_url": "https://www.sportschau.de/streams",
+      "scrape_pattern": "https://[^\"'\\s]+\\.m3u8"
+    },
+    {
+      "id": "zdf",
+      "name": "ZDF",
+      "country": "DE",
+      "language": "de",
+      "type": "static",
+      "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8"
+    },
+    {
+      "id": "tagesschau24",
+      "name": "tagesschau24",
+      "country": "DE",
+      "language": "de",
+      "type": "static",
+      "url": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8"
+    },
+    {
+      "id": "3sat",
+      "name": "3sat",
+      "country": "DE",
+      "language": "de",
+      "type": "static",
+      "url": "https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8"
+    },
+    {
+      "id": "phoenix",
+      "name": "PHOENIX",
+      "country": "DE",
+      "language": "de",
+      "type": "static",
+      "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8"
+    },
+    {
+      "id": "ndr",
+      "name": "NDR",
+      "country": "DE",
+      "language": "de",
+      "type": "static",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8"
+    },
+    {
+      "id": "mdr",
+      "name": "MDR",
+      "country": "DE",
+      "language": "de",
+      "type": "static",
+      "url": "https://mdrtvthhls.akamaized.net/hls/live/2016880/mdrtvth/index.m3u8"
+    },
+    {
+      "id": "hr",
+      "name": "hr-fernsehen",
+      "country": "DE",
+      "language": "de",
+      "type": "static",
+      "url": "https://hrhlsde.akamaized.net/hls/live/2024526/hrhlsde/index.m3u8"
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "country": "DE",
+      "language": "de",
+      "type": "static",
+      "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8"
+    },
+    {
+      "id": "bbc-radio5",
+      "name": "BBC Radio 5 Live",
+      "country": "GB",
+      "language": "en",
+      "type": "static",
+      "url": "https://stream.live.vc.bbcmedia.co.uk/bbc_radio_five_live"
+    },
+    {
+      "id": "bbc-radio4",
+      "name": "BBC Radio 4",
+      "country": "GB",
+      "language": "en",
+      "type": "static",
+      "url": "https://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourfm"
+    },
+    {
+      "id": "bbc-world-service",
+      "name": "BBC World Service",
+      "country": "GB",
+      "language": "en",
+      "type": "static",
+      "url": "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_world_service.m3u8"
+    },
+    {
+      "id": "npr",
+      "name": "NPR",
+      "country": "US",
+      "language": "en",
+      "type": "static",
+      "url": "https://npr-ice.streamguys1.com/live.mp3"
+    },
+    {
+      "id": "rte-radio1",
+      "name": "RTÉ Radio 1",
+      "country": "IE",
+      "language": "en",
+      "type": "static",
+      "url": "https://icecast.rte.ie/radio1"
+    },
+    {
+      "id": "franceinfo",
+      "name": "France Info",
+      "country": "FR",
+      "language": "fr",
+      "type": "static",
+      "url": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3"
+    },
+    {
+      "id": "franceinter",
+      "name": "France Inter",
+      "country": "fr",
+      "language": "fr",
+      "type": "static",
+      "url": "https://icecast.radiofrance.fr/franceinter-midfi.mp3"
+    },
+    {
+      "id": "rtbf",
+      "name": "RTBF La Première",
+      "country": "BE",
+      "language": "fr",
+      "type": "static",
+      "url": "https://radios.rtbf.be/laprem1ere-128.mp3"
+    },
+    {
+      "id": "npo-radio1",
+      "name": "NPO Radio 1",
+      "country": "NL",
+      "language": "nl",
+      "type": "static",
+      "url": "https://icecast.omroep.nl/radio1-bb-mp3"
+    },
+    {
+      "id": "vrt-nws",
+      "name": "VRT NWS",
+      "country": "BE",
+      "language": "nl",
+      "type": "static",
+      "url": "https://progressive-audio.vrtcdn.be/content/fixed/11_11niws-snip_hi.mp3"
+    },
+    {
+      "id": "rai-radio2",
+      "name": "RAI Radio 2",
+      "country": "IT",
+      "language": "it",
+      "type": "static",
+      "url": "https://icestreaming.rai.it/2.mp3"
+    },
+    {
+      "id": "rtp1",
+      "name": "RTP1",
+      "country": "PT",
+      "language": "pt",
+      "type": "static",
+      "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8"
+    },
+    {
+      "id": "al-jazeera-ar",
+      "name": "Al Jazeera Arabic",
+      "country": "QA",
+      "language": "ar",
+      "type": "static",
+      "url": "https://live-hls-web-aja.getaj.net/AJA/index.m3u8"
+    },
+    {
+      "id": "dlf",
+      "name": "Deutschlandfunk",
+      "country": "DE",
+      "language": "de",
+      "type": "static",
+      "url": "https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3"
+    },
+    {
+      "id": "1live",
+      "name": "1LIVE",
+      "country": "DE",
+      "language": "de",
+      "type": "static",
+      "url": "https://wdr-1live-live.icecastssl.wdr.de/wdr/1live/live/mp3/128/stream.mp3"
+    },
+    {
+      "id": "wdr2",
+      "name": "WDR 2",
+      "country": "DE",
+      "language": "de",
+      "type": "static",
+      "url": "https://wdr-wdr2-rheinland.icecastssl.wdr.de/wdr/wdr2/rheinland/mp3/128/stream.mp3"
+    },
+    {
+      "id": "ndr2",
+      "name": "NDR 2",
+      "country": "DE",
+      "language": "de",
+      "type": "static",
+      "url": "https://icecast.ndr.de/ndr/ndr2/niedersachsen/mp3/128/stream.mp3"
+    },
+    {
+      "id": "swr3",
+      "name": "SWR3",
+      "country": "DE",
+      "language": "de",
+      "type": "static",
+      "url": "https://liveradio.swr.de/sw282p3/swr3/play.mp3"
+    },
+    {
+      "id": "bayern3",
+      "name": "Bayern 3",
+      "country": "DE",
+      "language": "de",
+      "type": "static",
+      "url": "https://dispatcher.rndfnk.com/br/br3/live/mp3/mid"
+    },
+    {
+      "id": "orf-oe3",
+      "name": "ORF Ö3",
+      "country": "AT",
+      "language": "de",
+      "type": "static",
+      "url": "https://orf-live.ors-shoutcast.at/oe3-q2a"
+    },
+    {
+      "id": "srf1",
+      "name": "SRF 1",
+      "country": "CH",
+      "language": "de",
+      "type": "static",
+      "url": "https://stream.srg-ssr.ch/m/drs1/mp3_128"
+    },
+    {
+      "id": "talksport",
+      "name": "talkSPORT",
+      "country": "GB",
+      "language": "en",
+      "type": "static",
+      "url": "https://radio.talksport.com/stream"
+    },
+    {
+      "id": "cadena-ser",
+      "name": "Cadena SER",
+      "country": "ES",
+      "language": "es",
+      "type": "static",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER.mp3"
+    },
+    {
+      "id": "rai-radio1",
+      "name": "RAI Radio 1",
+      "country": "IT",
+      "language": "it",
+      "type": "static",
+      "url": "https://icestreaming.rai.it/1.mp3"
+    }
+  ]
+}

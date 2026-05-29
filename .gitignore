@@ -1,0 +1,130 @@
+# ============================================
+# Widget Runtime-Daten (generiert, nie committen)
+# ============================================
+today.json
+schedule.json
+feed.json
+state.json
+ticker.json
+comments.json
+commentary.json
+streams.json
+audio_state.json
+desktop_shift_state.json
+
+# ============================================
+# Persönliche Konfiguration (user-spezifisch)
+# ============================================
+shift_config.json
+CLAUDE.md
+
+# ============================================
+# mpv IPC Socket
+# ============================================
+mpv.sock
+
+# ============================================
+# IDE und Editor Konfigurationen (nicht pushen!)
+# ============================================
+.claude/
+.kiro/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================
+# macOS spezifisch
+# ============================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Spotlight-V8
+.fseventsd
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+Icon?
+
+# ============================================
+# Umgebungsvariablen und sensible Daten (NICHT pushen!)
+# ============================================
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.local
+config/credentials.json
+config/secrets.json
+secrets.json
+
+# ============================================
+# Temporäre Dateien und Logs
+# ============================================
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+.cache/
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================================
+# Build-Ausgaben
+# ============================================
+dist/
+build/
+out/
+coverage/
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+pip-wheel-metadata/
+
+# ============================================
+# Node.js und npm/pnpm/yarn
+# ============================================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================================
+# Datenbanken
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# Backup-Dateien und Archive
+# ============================================
+*.zip
+*.tar.gz
+*.rar

@@ -1,0 +1,17 @@
+{
+  "_comment": "Copy this file to ~/.wm2026/shift_config.json and adjust the icon names and positions to match your desktop layout. The 'closed' position is where icons sit when the side panel is hidden; 'open' is where they move when the side panel slides out.",
+  "icons": {
+    "My App": {
+      "closed": [481, 48],
+      "open": [850, 48]
+    },
+    "Another App": {
+      "closed": [481, 126],
+      "open": [850, 126]
+    },
+    "Third App": {
+      "closed": [481, 204],
+      "open": [850, 204]
+    }
+  }
+}
