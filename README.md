@@ -30,8 +30,7 @@
 
 ## Screenshot
 
-> _Add a screenshot here — `docs/screenshot.png` — after installing._  
-> Tip: `screencapture -x docs/screenshot.png` while the widget is visible.
+![WM 2026 Widget](docs/screenshot.png)
 
 ---
 
