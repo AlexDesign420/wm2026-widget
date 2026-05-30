@@ -1,32 +1,9 @@
 # ============================================
-# Widget Runtime-Daten (generiert, nie committen)
-# ============================================
-today.json
-schedule.json
-feed.json
-state.json
-ticker.json
-comments.json
-commentary.json
-streams.json
-audio_state.json
-desktop_shift_state.json
-
-# ============================================
-# Persönliche Konfiguration (user-spezifisch)
-# ============================================
-shift_config.json
-CLAUDE.md
-
-# ============================================
-# mpv IPC Socket
-# ============================================
-mpv.sock
-
-# ============================================
 # IDE und Editor Konfigurationen (nicht pushen!)
 # ============================================
 .claude/
+CLAUDE.md
+.kimi/
 .kiro/
 .vscode/
 .idea/
@@ -42,11 +19,7 @@ mpv.sock
 .LSOverride
 ._*
 .Spotlight-V100
-.Spotlight-V8
-.fseventsd
 .Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
 Icon?
 
 # ============================================
@@ -81,12 +54,116 @@ ehthumbs.db
 Desktop.ini
 
 # ============================================
-# Build-Ausgaben
+# Build-Ausgaben (falls vorhanden)
 # ============================================
 dist/
 build/
 out/
 coverage/
+
+# ============================================
+# Node.js und npm/pnpm/yarn
+# ============================================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================================
+# Browser Caches und Daten
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# Backup-Dateien
+# ============================================
+*.zip
+*.tar.gz
+*.rar
+
+# ============================================
+# Sensible Konfigurationsdateien (API-Keys etc.)
+# ============================================
+config.js
+config.local.js
+apikeys.js
+*.key
+*.pem
+*.p12
+*.pfx
+
+# ============================================
+# Test- und Coverage-Ausgaben
+# ============================================
+.nyc_output/
+*.lcov
+test-results/
+playwright-report/
+__snapshots__/
+
+# ============================================
+# Linter- und Formatter-Caches
+# ============================================
+.eslintcache
+.stylelintcache
+.prettiercache
+
+# ============================================
+# Betriebssystem (Windows)
+# ============================================
+Thumbs.db:encryptable
+$RECYCLE.BIN/
+
+# ============================================
+# Lokale Spielstände / Browser-Daten
+# ============================================
+*.save
+localstorage_dump*
+
+# ============================================
+# Weitere temporäre und generierte Dateien
+# ============================================
+*.orig
+*.old
+debug.log
+error.log
+logs/
+tmp/
+temp/
+
+# ============================================
+# Weitere Security- und Credential-Dateien
+# ============================================
+credentials.*
+id_rsa
+id_dsa
+*.ppk
+*.crt
+*.cert
+
+# ============================================
+# Private Entwickler-Übersichten (nicht pushen!)
+# ============================================
+INHALTS.md
+PRÄSENTATION.md
+
+# ============================================
+# Widget Runtime-Daten (generiert, nie committen)
+# ============================================
+today.json
+schedule.json
+feed.json
+state.json
+ticker.json
+comments.json
+commentary.json
+streams.json
+audio_state.json
+desktop_shift_state.json
+shift_config.json
+mpv.sock
 
 # ============================================
 # Python
@@ -105,26 +182,3 @@ ENV/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-pip-wheel-metadata/
-
-# ============================================
-# Node.js und npm/pnpm/yarn
-# ============================================
-node_modules/
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
-
-# ============================================
-# Datenbanken
-# ============================================
-*.db
-*.sqlite
-*.sqlite3
-
-# ============================================
-# Backup-Dateien und Archive
-# ============================================
-*.zip
-*.tar.gz
-*.rar
